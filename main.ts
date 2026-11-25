@@ -3,7 +3,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "After 312 nights of your 3 a.m. reality shows, I wanted a plot twist of my own, so I killed the Wi-Fi the second the killer turned around.";
+  'Confession: those 2 a.m. "No Internet" errors were me blocking your 47 texts to your ex, Kevin. His router does the same for him. We have a group chat.';
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");
